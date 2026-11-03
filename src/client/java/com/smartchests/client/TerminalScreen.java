@@ -73,9 +73,7 @@ public class TerminalScreen extends AbstractContainerScreen<TerminalMenu> {
 	private Component status = Component.translatable("gui.smartchests.scanning");
 
 	public TerminalScreen(TerminalMenu menu, Inventory inventory, Component title) {
-		super(menu, inventory, title);
-		this.imageWidth = W;
-		this.imageHeight = H;
+		super(menu, inventory, title, W, H);
 		ClientTerminalState.reset();
 	}
 
