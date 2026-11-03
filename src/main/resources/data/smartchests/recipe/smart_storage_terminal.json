@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IQI",
+    "RHR",
+    "ICI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "Q": "minecraft:quartz",
+    "R": "minecraft:redstone",
+    "H": "minecraft:chest",
+    "C": "minecraft:comparator"
+  },
+  "result": {
+    "id": "smartchests:smart_storage_terminal",
+    "count": 1
+  }
+}

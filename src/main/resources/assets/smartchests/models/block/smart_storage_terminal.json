@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "smartchests:block/terminal_side",
+    "down": "smartchests:block/terminal_bottom",
+    "up": "smartchests:block/terminal_top",
+    "north": "smartchests:block/terminal_front",
+    "south": "smartchests:block/terminal_side",
+    "east": "smartchests:block/terminal_side",
+    "west": "smartchests:block/terminal_side"
+  }
+}

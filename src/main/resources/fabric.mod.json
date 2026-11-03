@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "smartchests",
+	"version": "${version}",
+	"name": "Smart Chests",
+	"description": "One searchable terminal for every chest, barrel and shulker box around it. Search, withdraw and deposit without opening each chest.",
+	"authors": ["Smart Chests"],
+	"license": "MIT",
+	"icon": "assets/smartchests/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.smartchests.SmartChestsMod"],
+		"client": ["com.smartchests.client.SmartChestsClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

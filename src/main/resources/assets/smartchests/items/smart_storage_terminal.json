@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "smartchests:block/smart_storage_terminal"
+  }
+}

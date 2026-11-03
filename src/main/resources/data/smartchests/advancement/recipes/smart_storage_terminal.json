@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "auto": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "auto"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "smartchests:smart_storage_terminal"
+    ]
+  }
+}
